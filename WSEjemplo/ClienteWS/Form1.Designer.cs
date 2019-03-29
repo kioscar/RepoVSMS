@@ -32,8 +32,8 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtId = new System.Windows.Forms.TextBox();
             this.pnlDatos = new System.Windows.Forms.Panel();
-            this.lblNombre = new System.Windows.Forms.Label();
             this.lblEdad = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.pnlDatos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(229, 17);
+            this.btnBuscar.Location = new System.Drawing.Point(215, 17);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(64, 24);
             this.btnBuscar.TabIndex = 1;
@@ -73,14 +73,6 @@
             this.pnlDatos.Size = new System.Drawing.Size(278, 100);
             this.pnlDatos.TabIndex = 3;
             // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(16, 11);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(0, 13);
-            this.lblNombre.TabIndex = 0;
-            // 
             // lblEdad
             // 
             this.lblEdad.AutoSize = true;
@@ -88,6 +80,14 @@
             this.lblEdad.Name = "lblEdad";
             this.lblEdad.Size = new System.Drawing.Size(0, 13);
             this.lblEdad.TabIndex = 1;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(16, 11);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(0, 13);
+            this.lblNombre.TabIndex = 0;
             // 
             // Form1
             // 
